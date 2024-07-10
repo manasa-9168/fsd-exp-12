@@ -1,0 +1,8 @@
+create folder in cmd prmpt
+py -m pip install --user virtualenv
+py -m venv venv
+.\venv\scripts\activate
+pip install Django
+python -m django --version
+django-admin startproject first
+py manage.py runserver
